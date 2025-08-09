@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Brand variables and utility classes */
+:root{
+  --gold:#C2A74E;
+  --ink:#2A2A2A;
+  --stone:#EFEDE6;
+  --coal:#111111;
+}
+.font-logo{font-family:'Allura', cursive;}
+.font-serif{font-family:'Playfair Display', serif;}
+.font-sans{font-family:'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, 'Helvetica Neue', Arial;}
+.font-body{font-family:'Raleway', system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, 'Helvetica Neue', Arial;}
+.gold{color:var(--gold)}
+.bg-gold{background:var(--gold)}
+.ring-gold{--tw-ring-color:var(--gold)}
+.border-gold{border-color:var(--gold)}
